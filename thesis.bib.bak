@@ -1,0 +1,427 @@
+% This file was created with JabRef 2.8.
+% Encoding: UTF-8
+
+@ARTICLE{nodose,
+  author = {Adelberg, Brad},
+  title = {NoDoSE\—a tool for semi-automatically extracting structured and semistructured
+	data from text documents},
+  journal = {SIGMOD Rec.},
+  year = {1998},
+  volume = {27},
+  pages = {283--294},
+  number = {2},
+  month = jun,
+  acmid = {276330},
+  address = {New York, NY, USA},
+  doi = {10.1145/276305.276330},
+  issn = {0163-5808},
+  issue_date = {June 1998},
+  numpages = {12},
+  publisher = {ACM},
+  url = {http://doi.acm.org/10.1145/276305.276330}
+}
+
+@ARTICLE{web-oql,
+  author = {Arocena, Gustavo O. and Mendelzon, Alberto O.},
+  title = {WebOQL: restructuring documents, databases, and webs},
+  journal = {Theor. Pract. Object Syst.},
+  year = {1999},
+  volume = {5},
+  pages = {127--141},
+  number = {3},
+  month = aug,
+  acmid = {334644},
+  address = {New York, NY, USA},
+  doi = {10.1002/(SICI)1096-9942(1999)5:3<127::AID-TAPO2>3.0.CO;2-X},
+  issn = {1074-3227},
+  issue_date = {Aug. 1999},
+  numpages = {15},
+  publisher = {John Wiley \& Sons, Inc.},
+  url = {http://dx.doi.org/10.1002/(SICI)1096-9942(1999)5:3<127::AID-TAPO2>3.0.CO;2-X}
+}
+
+@INPROCEEDINGS{rapier,
+  author = {Califf, Mary Elaine and Mooney, Raymond J.},
+  title = {Relational learning of pattern-match rules for information extraction},
+  booktitle = {Proceedings of the sixteenth national conference on Artificial intelligence
+	and the eleventh Innovative applications of artificial intelligence
+	conference innovative applications of artificial intelligence},
+  year = {1999},
+  series = {AAAI '99/IAAI '99},
+  pages = {328--334},
+  address = {Menlo Park, CA, USA},
+  publisher = {American Association for Artificial Intelligence},
+  acmid = {315318},
+  isbn = {0-262-51106-1},
+  location = {Orlando, Florida, United States},
+  numpages = {7},
+  url = {http://dl.acm.org/citation.cfm?id=315149.315318}
+}
+
+@MISC{minerva,
+  author = {Valter Crescenzi and Giansalvatore Mecca},
+  title = {Grammars Have Exceptions},
+  howpublished = {Information Systems, Special Issue on Semistructured Data},
+  year = {1998}
+}
+
+@INPROCEEDINGS{roadrunner,
+  author = {Crescenzi, Valter and Mecca, Giansalvatore and Merialdo, Paolo},
+  title = {RoadRunner: Towards Automatic Data Extraction from Large Web Sites},
+  booktitle = {Proceedings of the 27th International Conference on Very Large Data
+	Bases},
+  year = {2001},
+  series = {VLDB '01},
+  pages = {109--118},
+  address = {San Francisco, CA, USA},
+  publisher = {Morgan Kaufmann Publishers Inc.},
+  acmid = {672370},
+  isbn = {1-55860-804-4},
+  numpages = {10},
+  url = {http://dl.acm.org/citation.cfm?id=645927.672370}
+}
+
+@ARTICLE{brigham,
+  author = {Embley, D. W. and Campbell, D. M. and Jiang, Y. S. and Liddle, S.
+	W. and Lonsdale, D. W. and Ng, Y.---K. and Smith, R. D.},
+  title = {Conceptual-model-based data extraction from multiple-record Web pages},
+  journal = {Data Knowl. Eng.},
+  year = {1999},
+  volume = {31},
+  pages = {227--251},
+  number = {3},
+  month = nov,
+  acmid = {335553},
+  address = {Amsterdam, The Netherlands, The Netherlands},
+  doi = {10.1016/S0169-023X(99)00027-0},
+  issn = {0169-023X},
+  issue_date = {Nov. 1999},
+  keywords = {World-Wide Web, data extraction, data structuring, data-rich document,
+	obituaries, ontological conceptual modeling, ontology, unstructured
+	data},
+  numpages = {25},
+  publisher = {Elsevier Science Publishers B. V.},
+  url = {http://dx.doi.org/10.1016/S0169-023X(99)00027-0}
+}
+
+@ARTICLE{srv,
+  author = {Freitag, Dayne},
+  title = {Machine Learning for Information Extraction in Informal Domains},
+  journal = {Mach. Learn.},
+  year = {2000},
+  volume = {39},
+  pages = {169--202},
+  number = {2-3},
+  month = may,
+  acmid = {347737},
+  address = {Hingham, MA, USA},
+  doi = {10.1023/A:1007601113994},
+  issn = {0885-6125},
+  issue_date = {May-June 2000},
+  keywords = {information extraction, multistrategy learning},
+  numpages = {34},
+  publisher = {Kluwer Academic Publishers},
+  url = {http://dx.doi.org/10.1023/A:1007601113994}
+}
+
+@INPROCEEDINGS{tsimmis,
+  author = {J. Hammer and J. McHugh and H. Garcia-Molina},
+  title = {Semistructured Data: The TSIMMIS Experience.},
+  booktitle = {First East-European Workshop on Advances in Databases and Information
+	Systems-ADBIS '97, },
+  year = {1997},
+  abstract = {In this paper we discuss the management of semi-structured data, i.e.,
+	data that has irregular or dynamically changing structure. We describe
+	components of the Stanford TSIMMIS Project that help extract semi-structured
+	data from Web pages, that allow the storage and querying of semi-structured
+	data, and that allow its browsing through the World Wide Web. A prototype
+	implementation of the {\sc Tsimmis} system as described here is currently
+	installed and running in the database group testbed.},
+  url = {http://ilpubs.stanford.edu:8090/235/}
+}
+
+@ARTICLE{softmealy,
+  author = {Hsu, Chun-Nan and Dung, Ming-Tzung},
+  title = {Generating finite-state transducers for semi-structured data extraction
+	from the Web},
+  journal = {Inf. Syst.},
+  year = {1998},
+  volume = {23},
+  pages = {521--538},
+  number = {9},
+  month = dec,
+  acmid = {306775},
+  address = {Oxford, UK, UK},
+  issn = {0306-4379},
+  issue_date = {Dec. 1998},
+  keywords = {information extraction, semistructured data, world wide web, wrapper
+	induction},
+  numpages = {18},
+  publisher = {Elsevier Science Ltd.},
+  url = {http://dl.acm.org/citation.cfm?id=306766.306775}
+}
+
+@INPROCEEDINGS{urlclassificaton,
+  author = {Kan, Min-Yen and Thi, Hoang Oanh Nguyen},
+  title = {Fast webpage classification using URL features},
+  booktitle = {Proceedings of the 14th ACM international conference on Information
+	and knowledge management},
+  year = {2005},
+  series = {CIKM '05},
+  pages = {325--326},
+  address = {New York, NY, USA},
+  publisher = {ACM},
+  acmid = {1099649},
+  doi = {10.1145/1099554.1099649},
+  isbn = {1-59593-140-6},
+  keywords = {uniform resource locator, webpage classification},
+  location = {Bremen, Germany},
+  numpages = {2},
+  url = {http://doi.acm.org/10.1145/1099554.1099649}
+}
+
+@ARTICLE{wien,
+  author = {Kushmerick, Nicholas},
+  title = {Wrapper induction: efficiency and expressiveness},
+  journal = {Artif. Intell.},
+  year = {2000},
+  volume = {118},
+  pages = {15--68},
+  number = {1-2},
+  month = apr,
+  acmid = {350346},
+  address = {Essex, UK},
+  doi = {10.1016/S0004-3702(99)00100-9},
+  issn = {0004-3702},
+  issue_date = {April 2000},
+  keywords = {Internet information integration, information agents, information
+	extraction, machine learning, wrapper induction},
+  numpages = {54},
+  publisher = {Elsevier Science Publishers Ltd.},
+  url = {http://dx.doi.org/10.1016/S0004-3702(99)00100-9}
+}
+
+@ARTICLE{laender,
+  author = {Laender, Alberto H. F. and Ribeiro-Neto, Berthier A. and da Silva,
+	Altigran S. and Teixeira, Juliana S.},
+  title = {A brief survey of web data extraction tools},
+  journal = {SIGMOD Rec.},
+  year = {2002},
+  volume = {31},
+  pages = {84--93},
+  number = {2},
+  month = jun,
+  acmid = {565137},
+  address = {New York, NY, USA},
+  doi = {10.1145/565117.565137},
+  issn = {0163-5808},
+  issue_date = {June 2002},
+  numpages = {10},
+  publisher = {ACM},
+  url = {http://doi.acm.org/10.1145/565117.565137}
+}
+
+@ARTICLE{debye,
+  author = {Laender, Alberto H. F. and Ribeiro-Neto, Berthier and da Silva, Altigran
+	S.},
+  title = {DEByE - Date extraction by example},
+  journal = {Data Knowl. Eng.},
+  year = {2002},
+  volume = {40},
+  pages = {121--154},
+  number = {2},
+  month = feb,
+  acmid = {599502},
+  address = {Amsterdam, The Netherlands, The Netherlands},
+  doi = {10.1016/S0169-023X(01)00047-7},
+  issn = {0169-023X},
+  issue_date = {February 2002},
+  keywords = {data extraction, web data management, wrapper generation},
+  numpages = {34},
+  publisher = {Elsevier Science Publishers B. V.},
+  url = {http://dx.doi.org/10.1016/S0169-023X(01)00047-7}
+}
+
+@INPROCEEDINGS{xwrap,
+  author = {Ling Liu and Calton Pu and Wei Han},
+  title = {XWRAP: An XML-Enabled Wrapper Construction System for Web Information
+	Sources},
+  booktitle = {Proceedings of the 16th International Conference on Data Engineering},
+  year = {2000},
+  series = {ICDE '00},
+  pages = {611--},
+  address = {Washington, DC, USA},
+  publisher = {IEEE Computer Society},
+  acmid = {847340},
+  isbn = {0-7695-0506-6},
+  key = {{$\!\!$}},
+  keywords = {Web data management, Information extraction, Wrapper generation system,
+	XML},
+  url = {http://dl.acm.org/citation.cfm?id=846219.847340}
+}
+
+@ARTICLE{stalker,
+  author = {Muslea, Ion and Minton, Steven and Knoblock, Craig A.},
+  title = {Hierarchical Wrapper Induction for Semistructured Information Sources},
+  journal = {Autonomous Agents and Multi-Agent Systems},
+  year = {2001},
+  volume = {4},
+  pages = {93--114},
+  number = {1-2},
+  month = mar,
+  acmid = {608666},
+  address = {Hingham, MA, USA},
+  doi = {10.1023/A:1010022931168},
+  issn = {1387-2532},
+  issue_date = {March-June 2001},
+  keywords = {information agents, information extraction, supervised inductive learning,
+	wrapper induction},
+  numpages = {22},
+  publisher = {Kluwer Academic Publishers},
+  url = {http://dx.doi.org/10.1023/A:1010022931168}
+}
+
+@ARTICLE{LU-CSE-07-010,
+  author = {Qi, Xiaoguang and Davison, Brian D.},
+  title = {Web page classification: Features and algorithms},
+  journal = {ACM Comput. Surv.},
+  year = {2009},
+  volume = {41},
+  pages = {12:1--12:31},
+  number = {2},
+  month = feb,
+  acmid = {1459357},
+  address = {New York, NY, USA},
+  articleno = {12},
+  doi = {10.1145/1459352.1459357},
+  issn = {0360-0300},
+  issue_date = {February 2009},
+  keywords = {Categorization, Web mining},
+  numpages = {31},
+  publisher = {ACM},
+  url = {http://doi.acm.org/10.1145/1459352.1459357}
+}
+
+@ARTICLE{RajashreeShettar2008,
+  author = {Rajashree Shettar, Rahul Bhuptani},
+  title = {A Vertical Search Engine - Based On Domain Classifier},
+  journal = {International Journal of Computer Science and Security},
+  year = {2008},
+  volume = {2},
+  pages = {18-27},
+  owner = {vikharev},
+  timestamp = {2012.06.03}
+}
+
+@ARTICLE{w4f,
+  author = {Sahuguet, Arnaud and Azavant, Fabien},
+  title = {Building intelligent web applications using lightweight wrappers},
+  journal = {Data Knowl. Eng.},
+  year = {2001},
+  volume = {36},
+  pages = {283--316},
+  number = {3},
+  month = mar,
+  acmid = {373270},
+  address = {Amsterdam, The Netherlands, The Netherlands},
+  doi = {10.1016/S0169-023X(00)00051-3},
+  issn = {0169-023X},
+  issue_date = {March 2001},
+  keywords = {Web, XML, information extraction, wrappers},
+  numpages = {34},
+  publisher = {Elsevier Science Publishers B. V.},
+  url = {http://dx.doi.org/10.1016/S0169-023X(00)00051-3}
+}
+
+@ARTICLE{whisk,
+  author = {Soderland, Stephen},
+  title = {Learning Information Extraction Rules for Semi-Structured and Free
+	Text},
+  journal = {Mach. Learn.},
+  year = {1999},
+  volume = {34},
+  pages = {233--272},
+  number = {1-3},
+  month = feb,
+  acmid = {309510},
+  address = {Hingham, MA, USA},
+  doi = {10.1023/A:1007562322031},
+  issn = {0885-6125},
+  issue_date = {Feb. 1999},
+  keywords = {information extraction, natural language processing, rule learning},
+  numpages = {40},
+  publisher = {Kluwer Academic Publishers},
+  url = {http://dx.doi.org/10.1023/A:1007562322031}
+}
+
+@INPROCEEDINGS{02_uis,
+  author = {М. С. Агеев and Б. В. Добров and Н. В. Лукашевич},
+  title = {Выбор факторов для классификации веб-страниц и веб-сайтов},
+  booktitle = {Труды РОМИП 2010},
+  year = {2010},
+  editor = {И. С. Некрестьянова},
+  address = {Казань},
+  month = {октябрь},
+  language = {russian},
+  owner = {vikharev},
+  timestamp = {2012.06.04}
+}
+
+@INPROCEEDINGS{09_kondratiev,
+  author = {М. Кондратьев},
+  title = {Влияние представления Веб-сайта на качество классификации},
+  booktitle = {Труды первого российского семинара по оценке методов информационного
+	поиска},
+  year = {2003},
+  editor = {И. С. Некрестьянова},
+  address = {Санкт-Петербург},
+  month = {октябрь},
+  publisher = {НИИ Химии СПбГУ},
+  language = {russian},
+  owner = {vikharev},
+  timestamp = {2012.06.03}
+}
+
+@INPROCEEDINGS{09_maksakov,
+  author = {А. В. Максаков},
+  title = {Оценка эффективности масштабируемых алгоритмов классификации текстов},
+  booktitle = {Труды четвертого российского семинара РОМИП'2006},
+  year = {2006},
+  editor = {И. С. Некрестьянова},
+  month = {октябрь},
+  publisher = {НУ ЦСИ},
+  language = {russian},
+  owner = {vikharev},
+  timestamp = {2012.06.04}
+}
+
+@INPROCEEDINGS{05_specs,
+  author = {Максаков, А. В.},
+  title = {Сравнительный анализ алгоритмов классификации и способов представления
+	Web-документов},
+  booktitle = {Труды третьего российского семинара по оценке методов информационного
+	поиска.},
+  year = {2005},
+  editor = {И. С. Некрестьянова},
+  address = {Санкт-Петербург},
+  publisher = {НИИ Химии СПбГУ},
+  language = {russian},
+  owner = {vikharev},
+  timestamp = {2012.06.04}
+}
+
+@INPROCEEDINGS{4_shabanov,
+  author = {В. И. Шабанов and А. М. Андреев},
+  title = {Метод классификации текстовых документов, основанный на полнотекстовом
+	поиске},
+  booktitle = {Труды первого российского семинара по оценке методов информационного
+	поиска},
+  year = {2003},
+  editor = {И. С. Некрестьянова},
+  month = {октябрь},
+  publisher = {НИИ Химии СПбГУ},
+  language = {russian},
+  owner = {vikharev},
+  timestamp = {2012.06.03}
+}
+

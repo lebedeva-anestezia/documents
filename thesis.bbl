@@ -1,0 +1,104 @@
+\begin{thebibliography}{10}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\language\csname l@#1\endcsname\fi}
+\ifx\undefined\url\def\url#1{{\small #1}}\else\fi
+\ifx\undefined\BibUrl\def\BibUrl#1{\url{#1}}\else\fi
+\ifx\undefined\BibAnnote\long\def\BibAnnote#1{}\else\fi
+\ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
+
+\bibitem{OPIC}
+\selectlanguageifdefined{english}
+\BibEmph{Abiteboul~S., Preda~M., Cobena~G.} Adaptive on-line page importance
+  computation~// Proceedings of the 12th international conference on World Wide
+  Web.
+\newblock WWW '03.
+\newblock New York, NY, USA: ACM, 2003.
+\newblock Pp.~280--290. \BibUrl{ http://doi.acm.org/10.1145/775152.775192}.
+
+\bibitem{FICA}
+\selectlanguageifdefined{english}
+\BibEmph{Bidoki~A. M.~Z., Yazdani~N., Ghodsnia~P.} Fica: A novel intelligent
+  crawling algorithm based on reinforcement learning~// \BibEmph{Web Intelli.
+  and Agent Sys.}
+\newblock \bbldec{} 2009.
+\newblock Vol.~7, no.~4.
+\newblock Pp.~363--373. \BibUrl{ http://dx.doi.org/10.3233/WIA-2009-0174}.
+
+\bibitem{FRank}
+\selectlanguageifdefined{english}
+\BibEmph{Richardson~M., Prakash~A., Brill~E.} Beyond pagerank: machine learning
+  for static ranking~// Proceedings of the 15th international conference on
+  World Wide Web.
+\newblock WWW '06.
+\newblock New York, NY, USA: ACM, 2006.
+\newblock Pp.~707--715. \BibUrl{ http://doi.acm.org/10.1145/1135777.1135881}.
+
+\bibitem{Brin}
+\selectlanguageifdefined{english}
+\BibEmph{Brin~S., Page~L.} The anatomy of a large-scale hypertextual web search
+  engine~// \BibEmph{Comput. Netw. ISDN Syst.}
+\newblock \bblapr{} 1998.
+\newblock Vol.~30, no. 1-7.
+\newblock Pp.~107--117. \BibUrl{
+  http://dx.doi.org/10.1016/S0169-7552(98)00110-X}.
+
+\bibitem{wiki_hits}
+\selectlanguageifdefined{english}
+\BibEmph{Wikipedia}. Алгоритм HITS --- Wikipedia{,} The Free
+  Encyclopedia.
+\newblock 2013.
+\newblock [Online; accessed 15-June-2013]. \BibUrl{
+  \url{http://ru.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC_HITS}}.
+
+\bibitem{Manning}
+\selectlanguageifdefined{english}
+\BibEmph{Manning~C.~D., Raghavan~P., Sch\"{u}tze~H.} Introduction to
+  Information Retrieval.
+\newblock New York, NY, USA: Cambridge University Press, 2008.
+
+\bibitem{Castillo}
+\selectlanguageifdefined{english}
+\BibEmph{Castillo~C.} Effective web crawling~// \BibEmph{SIGIR Forum}.
+\newblock \bbljun{} 2005.
+\newblock Vol.~39, no.~1.
+\newblock Pp.~55--56. \BibUrl{ http://doi.acm.org/10.1145/1067268.1067287}.
+
+\bibitem{Najork}
+\selectlanguageifdefined{english}
+\BibEmph{Najork~M., Wiener~J.~L.} Breadth-first crawling yields high-quality
+  pages~// Proceedings of the 10th international conference on World Wide Web.
+\newblock WWW '01.
+\newblock New York, NY, USA: ACM, 2001.
+\newblock Pp.~114--118. \BibUrl{ http://doi.acm.org/10.1145/371920.371965}.
+
+\bibitem{Cho2}
+\selectlanguageifdefined{english}
+\BibEmph{Cho~J., Garcia-Molina~H., Page~L.} Efficient crawling through url
+  ordering~// \BibEmph{Comput. Netw. ISDN Syst.}
+\newblock \bblapr{} 1998.
+\newblock Vol.~30, no. 1-7.
+\newblock Pp.~161--172. \BibUrl{
+  http://dx.doi.org/10.1016/S0169-7552(98)00108-1}.
+
+\bibitem{Cho}
+\selectlanguageifdefined{english}
+\BibEmph{Cho~J., Garcia-Molina~H.} The evolution of the web and implications
+  for an incremental crawler~// Proceedings of the 26th International
+  Conference on Very Large Data Bases.
+\newblock VLDB '00.
+\newblock San Francisco, CA, USA: Morgan Kaufmann Publishers Inc., 2000.
+\newblock Pp.~200--209. \BibUrl{
+  http://dl.acm.org/citation.cfm?id=645926.671679}.
+
+\bibitem{encog}
+\selectlanguageifdefined{english}
+Encog Machine Learning Framework. \BibUrl{
+  http://www.heatonresearch.com/encog}.
+
+\bibitem{Fahlman88anempirical}
+\selectlanguageifdefined{english}
+\BibEmph{Fahlman~S.~E.} An empirical study of learning speed in
+  back-propagation networks: Tech. rep.: 1988.
+
+\end{thebibliography}

@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2012/Arch Linux)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis.aux
+The style file: sty/gost71u.bst
+Database file #1: thesis.bib
+Warning--empty institution in Fahlman88anempirical
+You've used 12 entries,
+            2805 wiz_defined-function locations,
+            745 strings with 7669 characters,
+and the built_in function-call counts, 4639 in all, are:
+= -- 653
+> -- 103
+< -- 18
++ -- 36
+- -- 24
+* -- 298
+:= -- 576
+add.period$ -- 60
+call.type$ -- 12
+change.case$ -- 10
+chr.to.int$ -- 0
+cite$ -- 13
+duplicate$ -- 208
+empty$ -- 417
+format.name$ -- 24
+if$ -- 1226
+int.to.chr$ -- 0
+int.to.str$ -- 12
+missing$ -- 0
+newline$ -- 85
+num.names$ -- 27
+pop$ -- 55
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 149
+stack$ -- 0
+substring$ -- 248
+swap$ -- 95
+text.length$ -- 8
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 35
+width$ -- 14
+write$ -- 231
+(There was 1 warning)
