@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Arch Linux) (format=pdflatex 2013.5.25)  16 JUN 2013 04:24
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Arch Linux) (format=pdflatex 2013.5.25)  17 JUN 2013 03:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -678,11 +678,7 @@ Package: appendix 2009/09/02 v1.2b extra appendix facilities
 
 No file header.tex.
 :<-
-(./thesis.aux
-
-LaTeX Warning: Label `architecture' multiply defined.
-
-)
+(./thesis.aux)
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
@@ -826,23 +822,23 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [7
 
-] [8 <./pics/poisk-eps-converted-to.pdf>] [9] [10] [11] [12] [13] [14]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 144.
-
+] [8 <./pics/poisk-eps-converted-to.pdf>] [9] [10]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 54.
 
 (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 144.
- [15])
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 54.
+ [11] [12] [13] [14] [15]
+[16])
 :<-
 Package srcltx Info: Expanded filename `parts/chapter2.tex' to `parts/chapter2.
 tex' on input line 190.
 :<+ parts/chapter2.tex
-(./parts/chapter2.tex [16]
+(./parts/chapter2.tex [17]
 \IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 2.
-[17
+[18
 
 ]
 Package epstopdf Info: Source file: <pics/architecture.eps>
@@ -853,25 +849,25 @@ Package epstopdf Info: Source file: <pics/architecture.eps>
 (epstopdf)                    size: 22961 bytes
 (epstopdf)             Command: <repstopdf --outfile=pics/architecture-eps-conv
 erted-to.pdf pics/architecture.eps>
-(epstopdf)             \includegraphics on input line 27.
+(epstopdf)             \includegraphics on input line 25.
 Package epstopdf Info: Output file is already uptodate.
- <pics/architecture-eps-converted-to.pdf, id=71, 909.3975pt x 467.7475pt>
+ <pics/architecture-eps-converted-to.pdf, id=74, 909.3975pt x 467.7475pt>
 File: pics/architecture-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pics/architecture-eps-converted-to.pdf>
 Package pdftex.def Info: pics/architecture-eps-converted-to.pdf used on input l
-ine 27.
+ine 25.
 (pdftex.def)             Requested size: 469.47046pt x 241.47432pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[18] [19 <./pics/architecture-eps-converted-to.pdf>] [20])
+[19] [20 <./pics/architecture-eps-converted-to.pdf>] [21] [22])
 :<-
 Package srcltx Info: Expanded filename `parts/chapter3.tex' to `parts/chapter3.
 tex' on input line 191.
 :<+ parts/chapter3.tex
-(./parts/chapter3.tex [21]
+(./parts/chapter3.tex [23]
 \IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 3.
 
 Underfull \hbox (badness 1939) in paragraph at lines 18--19
@@ -879,34 +875,31 @@ Underfull \hbox (badness 1939) in paragraph at lines 18--19
 й-рон-ную
  []
 
-[22
+[24
 
-] [23] [24] [25]
+] [25] [26] [27] <pics/ranges5.png, id=106, 421.575pt x 245.41687pt>
+File: pics/ranges5.png Graphic file (type png)
 
-LaTeX Warning: Reference `graphic' on page 26 undefined on input line 55.
+<use pics/ranges5.png>
+Package pdftex.def Info: pics/ranges5.png used on input line 55.
+(pdftex.def)             Requested size: 469.47046pt x 273.30344pt.
 
-<pics/ranges4.png, id=99, 423.83344pt x 244.66406pt>
-File: pics/ranges4.png Graphic file (type png)
- <use pics/ranges4.png>
-Package pdftex.def Info: pics/ranges4.png used on input line 58.
-(pdftex.def)             Requested size: 469.47046pt x 271.02031pt.
-
-Overfull \hbox (39.5803pt too wide) detected at line 59
+Overfull \hbox (39.5803pt too wide) detected at line 56
 \T2A/cmr/m/n/10 –ис. 3.1. []
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-)
+[28])
 :<-
 Package srcltx Info: Expanded filename `parts/outro.tex' to `parts/outro.tex' o
 n input line 192.
 :<+ parts/outro.tex
-(./parts/outro.tex [26])
+(./parts/outro.tex [29 <./pics/ranges5.png>])
 :<-
 :<+ thesis.bbl
-(./thesis.bbl [27 <./pics/ranges4.png>]
+(./thesis.bbl [30]
 ! Undefined control sequence.
 l.24 \newblock \bbldec
                       {} 2009.
@@ -937,7 +930,16 @@ control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
 ! Undefined control sequence.
-l.63 \newblock \bbljun
+l.58 \newblock \bblmar
+                      {} 2009.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.71 \newblock \bbljun
                       {} 2005.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -946,7 +948,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.79 \newblock \bblapr
+l.87 \newblock \bblapr
                       {} 1998.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -955,20 +957,20 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 2707) in paragraph at lines 86--93
+Underfull \hbox (badness 2707) in paragraph at lines 94--101
 [][]\T2A/cmr/m/it/10 Cho J., Garcia-Molina H. \T2A/cmr/m/n/10 The evo-lu-tion o
 f the web and im-pli-ca-tions for an in-cre-men-tal
  []
 
 
-Underfull \hbox (badness 2662) in paragraph at lines 86--93
+Underfull \hbox (badness 2662) in paragraph at lines 94--101
 \T2A/cmr/m/n/10 '00.  San Fran-cis-co, CA, USA: Mor-gan Kauf-mann Pub-lish-ers 
 Inc., 2000.  Pp. 200--209.
  []
 
 )
 :<-
-[28
+[31
 
 ]
 Package srcltx Info: Expanded filename `appendix' to `appendix.tex' on input li
@@ -1685,7 +1687,7 @@ If that doesn't work, type  X <return>  to quit.
 
 )
 :<-
-[29
+[32
 
 
 ]
@@ -2077,7 +2079,7 @@ If that doesn't work, type  X <return>  to quit.
 
 )
 :<-
-[30]
+[33]
 Package srcltx Info: Expanded filename `//home/nastik/workspace/crawler/src/mai
 n/java/ru/ifmo/mailru/features/FeaturesExtractor.java' to `//home/nastik/worksp
 ace/crawler/src/main/java/ru/ifmo/mailru/features/FeaturesExtractor.java.tex' o
@@ -3228,7 +3230,7 @@ l.56 		components[
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[31]
+[34]
 
 ! LaTeX Error: Undefined color `gray'.
 
@@ -3793,7 +3795,7 @@ l.116                     words+
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[32]
+[35]
 
 ! LaTeX Error: Undefined color `gray'.
 
@@ -3966,22 +3968,19 @@ If that doesn't work, type  X <return>  to quit.
 :<-
 )
 :<-
-[33] (./thesis.aux)
+[36] (./thesis.aux)
 
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 6202 strings out of 493488
- 77962 string characters out of 3146892
- 297991 words of memory out of 3000000
- 9316 multiletter control sequences out of 15000+200000
+ 6205 strings out of 493488
+ 78005 string characters out of 3146892
+ 298957 words of memory out of 3000000
+ 9319 multiletter control sequences out of 15000+200000
  23657 words of font info for 58 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,6n,42p,2565b,1709s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,6n,42p,3542b,1709s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy9.pfb></usr/share/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/
@@ -4001,10 +4000,10 @@ st/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf-dist/fonts/type1/
 public/cm-super/sfsx2488.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super
 /sfti1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb><
 /usr/share/texmf-dist/fonts/type1/public/cm-super/sfxc1728.pfb>
-Output written on thesis.pdf (32 pages, 491384 bytes).
+Output written on thesis.pdf (35 pages, 503935 bytes).
 PDF statistics:
- 204 PDF objects out of 1000 (max. 8388607)
- 143 compressed objects within 2 object streams
+ 213 PDF objects out of 1000 (max. 8388607)
+ 149 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -51,6 +51,14 @@
 \newblock [Online; accessed 15-June-2013]. \BibUrl{
   \url{http://ru.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC_HITS}}.
 
+\bibitem{Liu}
+\selectlanguageifdefined{english}
+\BibEmph{Liu~T.-Y.} Learning to rank for information retrieval~//
+  \BibEmph{Found. Trends Inf. Retr.}
+\newblock \bblmar{} 2009.
+\newblock Vol.~3, no.~3.
+\newblock Pp.~225--331. \BibUrl{ http://dx.doi.org/10.1561/1500000016}.
+
 \bibitem{Manning}
 \selectlanguageifdefined{english}
 \BibEmph{Manning~C.~D., Raghavan~P., Sch\"{u}tze~H.} Introduction to
