@@ -6,43 +6,43 @@ Database file #1: thesis.bib
 Warning--empty institution in Fahlman88anempirical
 You've used 13 entries,
             2805 wiz_defined-function locations,
-            755 strings with 7835 characters,
-and the built_in function-call counts, 5088 in all, are:
-= -- 716
-> -- 108
-< -- 21
-+ -- 38
-- -- 25
-* -- 332
-:= -- 627
-add.period$ -- 66
+            750 strings with 7663 characters,
+and the built_in function-call counts, 4718 in all, are:
+= -- 661
+> -- 97
+< -- 20
++ -- 35
+- -- 22
+* -- 306
+:= -- 579
+add.period$ -- 63
 call.type$ -- 13
-change.case$ -- 11
+change.case$ -- 10
 chr.to.int$ -- 0
 cite$ -- 14
-duplicate$ -- 230
-empty$ -- 456
-format.name$ -- 25
-if$ -- 1343
+duplicate$ -- 216
+empty$ -- 428
+format.name$ -- 22
+if$ -- 1243
 int.to.chr$ -- 0
 int.to.str$ -- 13
 missing$ -- 0
-newline$ -- 92
-num.names$ -- 30
+newline$ -- 90
+num.names$ -- 28
 pop$ -- 57
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 165
+skip$ -- 150
 stack$ -- 0
-substring$ -- 280
-swap$ -- 108
+substring$ -- 248
+swap$ -- 99
 text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 39
+while$ -- 35
 width$ -- 15
-write$ -- 252
+write$ -- 242
 (There was 1 warning)

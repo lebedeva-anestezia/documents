@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Arch Linux) (format=pdflatex 2013.5.25)  17 JUN 2013 03:37
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Arch Linux) (format=pdflatex 2013.5.25)  18 JUN 2013 14:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -678,7 +678,11 @@ Package: appendix 2009/09/02 v1.2b extra appendix facilities
 
 No file header.tex.
 :<-
-(./thesis.aux)
+(./thesis.aux
+
+LaTeX Warning: Label `architecture' multiply defined.
+
+)
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
@@ -862,55 +866,72 @@ ine 25.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[19] [20 <./pics/architecture-eps-converted-to.pdf>] [21] [22])
+[19]
+
+LaTeX Warning: Reference `main_alg' on page 20 undefined on input line 38.
+
+Package epstopdf Info: Source file: <pics/main_alg.eps>
+(epstopdf)                    date: 2013-06-18 14:19:21
+(epstopdf)                    size: 101932 bytes
+(epstopdf)             Output file: <pics/main_alg-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-18 14:36:22
+(epstopdf)                    size: 42395 bytes
+(epstopdf)             Command: <repstopdf --outfile=pics/main_alg-eps-converte
+d-to.pdf pics/main_alg.eps>
+(epstopdf)             \includegraphics on input line 41.
+Package epstopdf Info: Output file is already uptodate.
+<pics/main_alg-eps-converted-to.pdf, id=78, 1150.2975pt x 838.13126pt>
+File: pics/main_alg-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pics/main_alg-eps-converted-to.pdf>
+Package pdftex.def Info: pics/main_alg-eps-converted-to.pdf used on input line 
+41.
+(pdftex.def)             Requested size: 469.47046pt x 342.06302pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[20 <./pics/architecture-eps-converted-to.pdf>] [21 <./pics/main_alg-eps-conver
+ted-to.pdf>] [22])
 :<-
 Package srcltx Info: Expanded filename `parts/chapter3.tex' to `parts/chapter3.
 tex' on input line 191.
 :<+ parts/chapter3.tex
 (./parts/chapter3.tex [23]
 \IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 3.
-
-Underfull \hbox (badness 1939) in paragraph at lines 18--19
-[][]\T2A/cmr/m/n/14.4 Модуль на-зна-че-ния при-о-ри-те-тов, ис-поль-зу-ю-щий не
-й-рон-ную
- []
-
 [24
 
-] [25] [26] [27] <pics/ranges5.png, id=106, 421.575pt x 245.41687pt>
-File: pics/ranges5.png Graphic file (type png)
+] <pics/uml.png, id=99, 1514.65875pt x 1087.06125pt>
+File: pics/uml.png Graphic file (type png)
+ <use pics/uml.png>
+Package pdftex.def Info: pics/uml.png used on input line 35.
+(pdftex.def)             Requested size: 469.47046pt x 336.93575pt.
 
-<use pics/ranges5.png>
-Package pdftex.def Info: pics/ranges5.png used on input line 55.
-(pdftex.def)             Requested size: 469.47046pt x 273.30344pt.
+[25 <./pics/uml.png (PNG copy)>] [26] [27] [28]
+<pics/ranges8.png, id=113, 616.55344pt x 410.2828pt>
+File: pics/ranges8.png Graphic file (type png)
+ <use pics/ranges8.png>
+Package pdftex.def Info: pics/ranges8.png used on input line 70.
+(pdftex.def)             Requested size: 469.47046pt x 312.4129pt.
 
-Overfull \hbox (39.5803pt too wide) detected at line 56
-\T2A/cmr/m/n/10 Рис. 3.1. []
+Overfull \hbox (39.5803pt too wide) detected at line 71
+\T2A/cmr/m/n/10 Рис. 3.2. []
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[28])
+[29] [30 <./pics/ranges8.png>])
 :<-
 Package srcltx Info: Expanded filename `parts/outro.tex' to `parts/outro.tex' o
 n input line 192.
 :<+ parts/outro.tex
-(./parts/outro.tex [29 <./pics/ranges5.png>])
+(./parts/outro.tex [31])
 :<-
 :<+ thesis.bbl
-(./thesis.bbl [30]
+(./thesis.bbl [32]
 ! Undefined control sequence.
-l.24 \newblock \bbldec
-                      {} 2009.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.41 \newblock \bblapr
+l.14 \newblock \bblapr
                       {} 1998.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -923,14 +944,14 @@ Runaway argument?
 ! Paragraph ended before \BibUrl was complete.
 <to be read again> 
                    \par 
-l.53 
+l.26 
      
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
 ! Undefined control sequence.
-l.58 \newblock \bblmar
+l.31 \newblock \bblmar
                       {} 2009.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -939,7 +960,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.71 \newblock \bbljun
+l.44 \newblock \bbljun
                       {} 2005.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -948,7 +969,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.87 \newblock \bblapr
+l.69 \newblock \bblapr
                       {} 1998.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -956,21 +977,30 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+! Undefined control sequence.
+l.79 \newblock \bbldec
+                      {} 2009.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Underfull \hbox (badness 2707) in paragraph at lines 94--101
+
+Underfull \hbox (badness 2707) in paragraph at lines 85--92
 [][]\T2A/cmr/m/it/10 Cho J., Garcia-Molina H. \T2A/cmr/m/n/10 The evo-lu-tion o
 f the web and im-pli-ca-tions for an in-cre-men-tal
  []
 
 
-Underfull \hbox (badness 2662) in paragraph at lines 94--101
+Underfull \hbox (badness 2662) in paragraph at lines 85--92
 \T2A/cmr/m/n/10 '00.  San Fran-cis-co, CA, USA: Mor-gan Kauf-mann Pub-lish-ers 
 Inc., 2000.  Pp. 200--209.
  []
 
 )
 :<-
-[31
+[33
 
 ]
 Package srcltx Info: Expanded filename `appendix' to `appendix.tex' on input li
@@ -1687,7 +1717,7 @@ If that doesn't work, type  X <return>  to quit.
 
 )
 :<-
-[32
+[34
 
 
 ]
@@ -2079,7 +2109,7 @@ If that doesn't work, type  X <return>  to quit.
 
 )
 :<-
-[33]
+[35]
 Package srcltx Info: Expanded filename `//home/nastik/workspace/crawler/src/mai
 n/java/ru/ifmo/mailru/features/FeaturesExtractor.java' to `//home/nastik/worksp
 ace/crawler/src/main/java/ru/ifmo/mailru/features/FeaturesExtractor.java.tex' o
@@ -3230,7 +3260,7 @@ l.56 		components[
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[34]
+[36]
 
 ! LaTeX Error: Undefined color `gray'.
 
@@ -3795,7 +3825,7 @@ l.116                     words+
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[35]
+[37]
 
 ! LaTeX Error: Undefined color `gray'.
 
@@ -3968,16 +3998,19 @@ If that doesn't work, type  X <return>  to quit.
 :<-
 )
 :<-
-[36] (./thesis.aux)
+[38] (./thesis.aux)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6205 strings out of 493488
- 78005 string characters out of 3146892
- 298957 words of memory out of 3000000
- 9319 multiletter control sequences out of 15000+200000
+ 6217 strings out of 493488
+ 78260 string characters out of 3146892
+ 299158 words of memory out of 3000000
+ 9329 multiletter control sequences out of 15000+200000
  23657 words of font info for 58 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,6n,42p,3542b,1709s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -4000,10 +4033,10 @@ st/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf-dist/fonts/type1/
 public/cm-super/sfsx2488.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super
 /sfti1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb><
 /usr/share/texmf-dist/fonts/type1/public/cm-super/sfxc1728.pfb>
-Output written on thesis.pdf (35 pages, 503935 bytes).
+Output written on thesis.pdf (37 pages, 635805 bytes).
 PDF statistics:
- 213 PDF objects out of 1000 (max. 8388607)
- 149 compressed objects within 2 object streams
+ 226 PDF objects out of 1000 (max. 8388607)
+ 158 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

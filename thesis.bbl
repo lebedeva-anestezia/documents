@@ -7,33 +7,6 @@
 \ifx\undefined\BibAnnote\long\def\BibAnnote#1{}\else\fi
 \ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
 
-\bibitem{OPIC}
-\selectlanguageifdefined{english}
-\BibEmph{Abiteboul~S., Preda~M., Cobena~G.} Adaptive on-line page importance
-  computation~// Proceedings of the 12th international conference on World Wide
-  Web.
-\newblock WWW '03.
-\newblock New York, NY, USA: ACM, 2003.
-\newblock Pp.~280--290. \BibUrl{ http://doi.acm.org/10.1145/775152.775192}.
-
-\bibitem{FICA}
-\selectlanguageifdefined{english}
-\BibEmph{Bidoki~A. M.~Z., Yazdani~N., Ghodsnia~P.} Fica: A novel intelligent
-  crawling algorithm based on reinforcement learning~// \BibEmph{Web Intelli.
-  and Agent Sys.}
-\newblock \bbldec{} 2009.
-\newblock Vol.~7, no.~4.
-\newblock Pp.~363--373. \BibUrl{ http://dx.doi.org/10.3233/WIA-2009-0174}.
-
-\bibitem{FRank}
-\selectlanguageifdefined{english}
-\BibEmph{Richardson~M., Prakash~A., Brill~E.} Beyond pagerank: machine learning
-  for static ranking~// Proceedings of the 15th international conference on
-  World Wide Web.
-\newblock WWW '06.
-\newblock New York, NY, USA: ACM, 2006.
-\newblock Pp.~707--715. \BibUrl{ http://doi.acm.org/10.1145/1135777.1135881}.
-
 \bibitem{Brin}
 \selectlanguageifdefined{english}
 \BibEmph{Brin~S., Page~L.} The anatomy of a large-scale hypertextual web search
@@ -80,6 +53,15 @@
 \newblock New York, NY, USA: ACM, 2001.
 \newblock Pp.~114--118. \BibUrl{ http://doi.acm.org/10.1145/371920.371965}.
 
+\bibitem{OPIC}
+\selectlanguageifdefined{english}
+\BibEmph{Abiteboul~S., Preda~M., Cobena~G.} Adaptive on-line page importance
+  computation~// Proceedings of the 12th international conference on World Wide
+  Web.
+\newblock WWW '03.
+\newblock New York, NY, USA: ACM, 2003.
+\newblock Pp.~280--290. \BibUrl{ http://doi.acm.org/10.1145/775152.775192}.
+
 \bibitem{Cho2}
 \selectlanguageifdefined{english}
 \BibEmph{Cho~J., Garcia-Molina~H., Page~L.} Efficient crawling through url
@@ -88,6 +70,15 @@
 \newblock Vol.~30, no. 1-7.
 \newblock Pp.~161--172. \BibUrl{
   http://dx.doi.org/10.1016/S0169-7552(98)00108-1}.
+
+\bibitem{FICA}
+\selectlanguageifdefined{english}
+\BibEmph{Bidoki~A. M.~Z., Yazdani~N., Ghodsnia~P.} Fica: A novel intelligent
+  crawling algorithm based on reinforcement learning~// \BibEmph{Web Intelli.
+  and Agent Sys.}
+\newblock \bbldec{} 2009.
+\newblock Vol.~7, no.~4.
+\newblock Pp.~363--373. \BibUrl{ http://dx.doi.org/10.3233/WIA-2009-0174}.
 
 \bibitem{Cho}
 \selectlanguageifdefined{english}
@@ -98,6 +89,12 @@
 \newblock San Francisco, CA, USA: Morgan Kaufmann Publishers Inc., 2000.
 \newblock Pp.~200--209. \BibUrl{
   http://dl.acm.org/citation.cfm?id=645926.671679}.
+
+\bibitem{dict}
+\selectlanguageifdefined{english}
+WinEdt.
+\newblock [Online; accessed 15-April-2013]. \BibUrl{
+  \url{http://www.winedt.org/}}.
 
 \bibitem{encog}
 \selectlanguageifdefined{english}
